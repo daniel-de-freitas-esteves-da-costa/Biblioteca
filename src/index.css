@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+body
+{
+    background-color: black;
+    color: white;
+}
+
+h1.h1Titulo
+{
+    font-size: 2rem;
+    margin: 1rem 0em 1rem 2em;
+}

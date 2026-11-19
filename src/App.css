@@ -1,0 +1,38 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+.divCompleta{
+    background-image: url('https://i.pinimg.com/originals/df/58/48/df5848f01da9ab5bfe20dc75e7496c2c.gif');
+    background-repeat: no-repeat;
+    background-size: 100% 90%;
+    background-position: center;
+}
+
+.Livros
+{
+    display: flex;
+    justify-content: center;
+
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
+
+/* Animações */
+
+section.reflexao:hover
+{
+    animation: animaM 5s ease-in-out;
+}
+
+@keyframes animaM{
+    from {
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}

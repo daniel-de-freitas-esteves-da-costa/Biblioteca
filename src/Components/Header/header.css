@@ -1,0 +1,23 @@
+
+header {
+
+
+    border-bottom: 10px solid transparent; 
+    
+    background: 
+        url('sua-imagem.jpg') no-repeat center/cover padding-box, 
+        linear-gradient(45deg, transparent 45%, oklch(86.5% 0.127 207.078) 50%, transparent 55%);
+
+    background-size: cover, 300% 300%;
+
+    animation: transacoes 2s ease-in-out infinite alternate;
+}
+
+@keyframes transacoes {
+    0% {
+        background-position: center, 0% 100%;
+    }
+    100% {
+        background-position: center, 100% 0%;
+    }
+}
